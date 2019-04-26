@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 15, 2017, 7:46:34 PM
+    Author     : Sara
+*/
+
+.root{
+    -fx-background-color: #996699;
+}
+Button{
+    -fx-pref-width: 150px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 20px;
+    -fx-font-family:"Bitstream Vera Sans Mono";
+    -fx-background-color: rgba(0, 0, 0 ,0);
+    -fx-border-radius: 0;
+    -fx-text-fill: #660066;
+    -fx-border-width: 2px;
+    -fx-border-color: #660066;
+}
+.btn:hover{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #660066;
+}
+.finishBtn:hover{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #339966;
+    -fx-border-color: #339966;
+}
+Label{
+    -fx-text-fill:#ffffff;
+    -fx-font-size: 16px;
+    -fx-font-family: "Bitstream Vera Sans Mono";
+}
+.view:hover{
+    -fx-effect: dropshadow(three-pass-box, #330033, 30, .1, 0, 9);
+}

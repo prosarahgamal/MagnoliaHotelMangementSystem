@@ -1,0 +1,37 @@
+
+/* 
+    Created on : Nov 15, 2017, 10:02:15 PM
+    Author     : Sara
+*/
+
+.root{
+    -fx-background-color: #996699;
+}
+Label{
+    -fx-background-color: rgba(255, 255, 255, .35);
+    -fx-background-radius: 10 0 0 10;
+    -fx-pref-height: 50px;
+    
+}
+TextField{
+    -fx-background-color: rgba(255, 255, 255, .35);
+    -fx-background-radius: 0 10 10 0;
+    -fx-pref-width: 1400px;
+    -fx-pref-height: 50px;
+    -fx-border-width: 0;
+}
+Button{
+    -fx-pref-width: 150px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 16px;
+    -fx-font-family:"Bitstream Vera Sans Mono";
+    -fx-background-color: rgba(0, 0, 0 ,0);
+    -fx-border-radius: 10;
+    -fx-text-fill: #660066;
+    -fx-border-width: 2px;
+    -fx-border-color: #660066;
+}
+.btn:hover{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #660066;
+}

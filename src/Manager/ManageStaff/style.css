@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 17, 2017, 12:59:39 AM
+    Author     : Sara
+*/
+
+.root{
+    -fx-background-color: #996699;
+}
+Button{
+    -fx-pref-width: 180px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 18px;
+    -fx-font-family:"Century Gothic";
+    -fx-background-color: rgba(0, 0, 0 ,0);
+    -fx-border-radius: 0;
+    -fx-text-fill: #ffffff;
+    -fx-border-width: 2px;
+    -fx-border-color: #660066;
+}
+Button:hover{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #660066;
+}
+label{
+    -fx-font-size: 18px;
+    -fx-font-family: "Century Gothic";
+    -fx-pref-height: 30px;
+    -fx-text-fill: #ffffff;
+}
+TextField{
+    -fx-pref-height: 30px;
+}
+.search{
+    -fx-background-color: rgba(255, 255, 255, .35);
+    -fx-background-radius: 0 10 10 0;
+    -fx-pref-width: 1000px;
+    -fx-pref-height: 50px;
+    -fx-border-width: 0;
+}
+Label{
+    -fx-background-color: rgba(255, 255, 255, .35);
+    -fx-background-radius: 10 0 0 10;
+    -fx-pref-height: 50px;
+    
+}
+TextField{
+    -fx-pref-width: 10px;
+    -fx-pref-height: 40px;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 0;
+}
+.right{
+    -fx-background-color: #660066;
+    -fx-pref-width: 500px;
+}

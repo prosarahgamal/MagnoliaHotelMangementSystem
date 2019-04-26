@@ -1,0 +1,18 @@
+
+/* 
+    Created on : Nov 16, 2017, 12:32:01 AM
+    Author     : Sara
+*/
+
+.root{
+    -fx-background-color: #ffffff;
+}
+Button{
+    -fx-pref-width: 70px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+Button:hover{
+    -fx-background-color: #000000;
+    -fx-text-fill: #ffffff;
+}

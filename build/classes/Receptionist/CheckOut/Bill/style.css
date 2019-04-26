@@ -1,0 +1,15 @@
+
+/* 
+    Created on : Nov 16, 2017, 12:59:43 AM
+    Author     : Sara
+*/
+
+.root{
+    -fx-background-image: url(../../../images/bill.png);
+}
+
+Label{
+    -fx-text-fill: #000000;
+    -fx-font-size: 18px;
+    -fx-font-family: "Century Gothic";
+}

@@ -1,0 +1,48 @@
+
+/* 
+    Created on : Nov 16, 2017, 2:15:41 AM
+    Author     : Sara
+*/
+
+Button{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 60px;
+    -fx-font-size: 20px;
+    -fx-font-family:"Century Gothic";
+    -fx-background-color: rgba(0, 0, 0 ,0);
+    -fx-border-radius: 0;
+    -fx-text-fill: #660066;
+    -fx-border-width: 2px;
+    -fx-border-color: #660066;
+}
+Button:hover{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #660066;
+}
+Label{
+    -fx-font-size: 20px;
+    -fx-font-family:"Century Gothic";
+    -fx-text-fill: #000000;
+    -fx-pref-height: 50px;
+}
+.name{
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 200px;
+}
+.profile{
+    -fx-border-width: 0 0 0 2;
+    -fx-border-color: #000000;
+}
+TextField{
+    -fx-pref-height: 50px;
+}
+.noneditable{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-radius: 0;
+}
+.editable{
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 0;
+    -fx-border-width: 0;
+}
